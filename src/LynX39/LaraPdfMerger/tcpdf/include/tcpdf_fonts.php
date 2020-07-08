@@ -1530,7 +1530,7 @@ class TCPDF_FONTS
             $outstr .= "\xFE\xFF"; // Byte Order Mark (BOM)
         }
         foreach ($unicode as $char) {
-            if ( ! is_numeric($c)) {
+            if ( ! is_numeric($char)) {
                 return '';
             }
             if (0x200b == $char) {
@@ -1895,7 +1895,7 @@ class TCPDF_FONTS
     {
         $outstr = ''; // string to be returned
         foreach ($unicode as $char) {
-            if ( ! is_numeric($c)) {
+            if ( ! is_numeric($char)) {
                 return '';
             }
             if ($char < 256) {
