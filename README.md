@@ -1,3 +1,5 @@
+# This repo is outdated. Please use this one: https://github.com/DALTCORE/lara-pdf-merger
+
 # lara-pdf-merger
 
 Drop-in replacement for the original package from [deltaaskii/lara-pdf-merger](https://github.com/deltaaskii/lara-pdf-merger) that works under *PHP 7.4*
